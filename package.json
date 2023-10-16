@@ -4,7 +4,9 @@
   "description": "P2P file sharing",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node index.js",
+    "build": "webpack --mode production"
   },
   "author": "Vivek Kumar",
   "license": "ISC",
